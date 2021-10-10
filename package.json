@@ -1,0 +1,30 @@
+{
+  "name": "drone-eye-bc",
+  "version": "1.0.0",
+  "description": "Backend for drone site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay9711/drone-eye-bc.git"
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay9711/drone-eye-bc/issues"
+  },
+  "homepage": "https://github.com/vijay9711/drone-eye-bc#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.1.2",
+    "firebase-admin": "^9.12.0",
+    "nodemon": "^2.0.13",
+    "pcf-start": "^1.6.5"
+  }
+}
